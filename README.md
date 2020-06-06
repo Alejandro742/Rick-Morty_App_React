@@ -1,3 +1,26 @@
+# Rick & Morty App
+Aplicación que muestra información básica de los personajes de la serie animada de Rick and Morty.
+
+En el proyecto se ven temas como:
+- Fetch API
+- API de Rick and Morty
+- JSX,JS,CSS
+- Bootstrap
+- React
+- Hooks
+
+
+
+![](./markdown_img.png)
+
+
+# Sources
+- https://rickandmortyapi.com/
+- https://getbootstrap.com/
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
