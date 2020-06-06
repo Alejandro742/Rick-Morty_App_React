@@ -2,8 +2,6 @@ import React, { Fragment } from "react";
 
 const Character = ({ character }) => {
   //character state
- 
-
 
   return (
     <Fragment>
@@ -19,11 +17,9 @@ const Character = ({ character }) => {
       <p>
         Especie: <span id="especie-span">{character.species}</span>
       </p>
-      {Object.keys(character).length === 0 ? 
-        null
-        :
-        <img id="c-img" src={character.image} alt="imagen_personaje"/>
-        }
+      {Object.keys(character).length === 0 ? null : (
+        <img id="c-img" src={character.image} alt="imagen_personaje" />
+      )}
     </Fragment>
   );
 };
