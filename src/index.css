@@ -29,3 +29,12 @@ h2{
 div{
   font-size: 2rem;
 }
+
+/*utilidades*/
+
+.fntsz-primary{
+  font-size: 1.8rem;
+}
+.fntsz-secundary{
+  font-size: 1.5rem;
+}
