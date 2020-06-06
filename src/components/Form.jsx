@@ -1,8 +1,31 @@
-import React from 'react';
+import React,{Fragment} from 'react';
+
+
 
 const Form = () => {
+
+    const submitName = () =>{
+        console.log('Enviando')
+    }
+
     return ( 
-        <h2>Form</h2>
+        <Fragment>
+            <form
+                onSubmit = {submitName}
+            >
+                <div className="form-group">
+                    <label htmlFor="personaje">Nombre del Personaje</label>
+                    <input type="text" id="personaje" className="form-control fntsz-secundary" autoCorrect placeholder="Nombre del Personaje"/>
+                </div>
+                <div className="form-group">
+                    <button
+                        type='submit' className = "form-group btn btn-primary btn-block fntsz-primary"
+                    >
+                        Buscar
+                    </button>
+                </div>
+            </form>
+        </Fragment>
      );
 }
  
